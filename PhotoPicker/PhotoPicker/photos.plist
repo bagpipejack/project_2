@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Animals</key>
+	<dict>
+		<key>Lion</key>
+		<string>lion.jpg</string>
+		<key>Tiger</key>
+		<string>tiger.jpg</string>
+		<key>Bear</key>
+		<string>bear.jpg</string>
+		<key>Elephant</key>
+		<string>elephant.jpg</string>
+		<key>Crocodile</key>
+		<string>crocodile.jpg</string>
+	</dict>
+	<key>Instruments</key>
+	<dict>
+		<key>Trumpet</key>
+		<string>trumpet.jpg</string>
+		<key>Piano</key>
+		<string>piano.jpg</string>
+		<key>Drums</key>
+		<string>drums.jpg</string>
+		<key>Clarinet</key>
+		<string>clarinet.jpg</string>
+	</dict>
+	<key>Buildings</key>
+	<dict>
+		<key>Empire State</key>
+		<string>empireState.jpg</string>
+		<key>Golden Gate</key>
+		<string>goldenGate.jpg</string>
+		<key>Big Ben</key>
+		<string>bigBen.jpg</string>
+	</dict>
+</dict>
+</plist>

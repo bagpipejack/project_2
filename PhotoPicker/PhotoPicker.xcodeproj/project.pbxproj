@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB659AAD16E8499300E3F53B /* PictureHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BB659AAC16E8499300E3F53B /* PictureHeader.m */; };
+		BB659AB016E8539600E3F53B /* PhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = BB659AAF16E8539600E3F53B /* PhotoLibrary.m */; };
+		BB659AB216E856EB00E3F53B /* photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB659AB116E856EB00E3F53B /* photos.plist */; };
+		BB659AC716E87AC000E3F53B /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = BB659AB816E87AC000E3F53B /* grid.png */; };
+		BB659AC816E87AC000E3F53B /* picker.png in Resources */ = {isa = PBXBuildFile; fileRef = BB659AB916E87AC000E3F53B /* picker.png */; };
+		BB659AC916E87AC000E3F53B /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659ABB16E87AC000E3F53B /* bear.jpg */; };
+		BB659ACA16E87AC000E3F53B /* bigBen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659ABC16E87AC000E3F53B /* bigBen.jpg */; };
+		BB659ACB16E87AC000E3F53B /* clarinet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659ABD16E87AC000E3F53B /* clarinet.jpg */; };
+		BB659ACC16E87AC000E3F53B /* crocodile.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659ABE16E87AC000E3F53B /* crocodile.jpg */; };
+		BB659ACD16E87AC000E3F53B /* drums.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659ABF16E87AC000E3F53B /* drums.jpg */; };
+		BB659ACE16E87AC000E3F53B /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659AC016E87AC000E3F53B /* elephant.jpg */; };
+		BB659ACF16E87AC000E3F53B /* empireState.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659AC116E87AC000E3F53B /* empireState.jpg */; };
+		BB659AD016E87AC000E3F53B /* goldenGate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659AC216E87AC000E3F53B /* goldenGate.jpg */; };
+		BB659AD116E87AC000E3F53B /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659AC316E87AC000E3F53B /* lion.jpg */; };
+		BB659AD216E87AC000E3F53B /* piano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659AC416E87AC000E3F53B /* piano.jpg */; };
+		BB659AD316E87AC000E3F53B /* tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659AC516E87AC000E3F53B /* tiger.jpg */; };
+		BB659AD416E87AC000E3F53B /* trumpet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BB659AC616E87AC000E3F53B /* trumpet.jpg */; };
+		BB71000616E83BA900BECB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB71000516E83BA900BECB92 /* UIKit.framework */; };
+		BB71000816E83BA900BECB92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB71000716E83BA900BECB92 /* Foundation.framework */; };
+		BB71000A16E83BA900BECB92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB71000916E83BA900BECB92 /* CoreGraphics.framework */; };
+		BB71001016E83BA900BECB92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB71000E16E83BA900BECB92 /* InfoPlist.strings */; };
+		BB71001216E83BA900BECB92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71001116E83BA900BECB92 /* main.m */; };
+		BB71001616E83BA900BECB92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71001516E83BA900BECB92 /* AppDelegate.m */; };
+		BB71001816E83BA900BECB92 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BB71001716E83BA900BECB92 /* Default.png */; };
+		BB71001A16E83BA900BECB92 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB71001916E83BA900BECB92 /* Default@2x.png */; };
+		BB71001C16E83BA900BECB92 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB71001B16E83BA900BECB92 /* Default-568h@2x.png */; };
+		BB71001F16E83BA900BECB92 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB71001D16E83BA900BECB92 /* MainStoryboard.storyboard */; };
+		BB71002216E83BA900BECB92 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71002116E83BA900BECB92 /* GridViewController.m */; };
+		BB71002916E83BA900BECB92 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71002816E83BA900BECB92 /* SecondViewController.m */; };
+		BB71006416E8425C00BECB92 /* PictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB71006316E8425C00BECB92 /* PictureCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB659AAB16E8499300E3F53B /* PictureHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureHeader.h; sourceTree = "<group>"; };
+		BB659AAC16E8499300E3F53B /* PictureHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureHeader.m; sourceTree = "<group>"; };
+		BB659AAE16E8539600E3F53B /* PhotoLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoLibrary.h; sourceTree = "<group>"; };
+		BB659AAF16E8539600E3F53B /* PhotoLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoLibrary.m; sourceTree = "<group>"; };
+		BB659AB116E856EB00E3F53B /* photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = photos.plist; sourceTree = "<group>"; };
+		BB659AB816E87AC000E3F53B /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		BB659AB916E87AC000E3F53B /* picker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picker.png; sourceTree = "<group>"; };
+		BB659ABB16E87AC000E3F53B /* bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bear.jpg; sourceTree = "<group>"; };
+		BB659ABC16E87AC000E3F53B /* bigBen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigBen.jpg; sourceTree = "<group>"; };
+		BB659ABD16E87AC000E3F53B /* clarinet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = clarinet.jpg; sourceTree = "<group>"; };
+		BB659ABE16E87AC000E3F53B /* crocodile.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crocodile.jpg; sourceTree = "<group>"; };
+		BB659ABF16E87AC000E3F53B /* drums.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drums.jpg; sourceTree = "<group>"; };
+		BB659AC016E87AC000E3F53B /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elephant.jpg; sourceTree = "<group>"; };
+		BB659AC116E87AC000E3F53B /* empireState.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = empireState.jpg; sourceTree = "<group>"; };
+		BB659AC216E87AC000E3F53B /* goldenGate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldenGate.jpg; sourceTree = "<group>"; };
+		BB659AC316E87AC000E3F53B /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpg; sourceTree = "<group>"; };
+		BB659AC416E87AC000E3F53B /* piano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piano.jpg; sourceTree = "<group>"; };
+		BB659AC516E87AC000E3F53B /* tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiger.jpg; sourceTree = "<group>"; };
+		BB659AC616E87AC000E3F53B /* trumpet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trumpet.jpg; sourceTree = "<group>"; };
+		BB71000216E83BA900BECB92 /* PhotoPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB71000516E83BA900BECB92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB71000716E83BA900BECB92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB71000916E83BA900BECB92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB71000D16E83BA900BECB92 /* PhotoPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		BB71000F16E83BA900BECB92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB71001116E83BA900BECB92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB71001316E83BA900BECB92 /* PhotoPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoPicker-Prefix.pch"; sourceTree = "<group>"; };
+		BB71001416E83BA900BECB92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB71001516E83BA900BECB92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB71001716E83BA900BECB92 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BB71001916E83BA900BECB92 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BB71001B16E83BA900BECB92 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BB71001E16E83BA900BECB92 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BB71002016E83BA900BECB92 /* GridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
+		BB71002116E83BA900BECB92 /* GridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
+		BB71002716E83BA900BECB92 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		BB71002816E83BA900BECB92 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		BB71006216E8425C00BECB92 /* PictureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCell.h; sourceTree = "<group>"; };
+		BB71006316E8425C00BECB92 /* PictureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB71FFFF16E83BA900BECB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB71000616E83BA900BECB92 /* UIKit.framework in Frameworks */,
+				BB71000816E83BA900BECB92 /* Foundation.framework in Frameworks */,
+				BB71000A16E83BA900BECB92 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB659AA916E8494400E3F53B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB659AAE16E8539600E3F53B /* PhotoLibrary.h */,
+				BB659AAF16E8539600E3F53B /* PhotoLibrary.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BB659AAA16E8495600E3F53B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB71002016E83BA900BECB92 /* GridViewController.h */,
+				BB71002116E83BA900BECB92 /* GridViewController.m */,
+				BB71002716E83BA900BECB92 /* SecondViewController.h */,
+				BB71002816E83BA900BECB92 /* SecondViewController.m */,
+				BB71006316E8425C00BECB92 /* PictureCell.m */,
+				BB71006216E8425C00BECB92 /* PictureCell.h */,
+				BB659AAB16E8499300E3F53B /* PictureHeader.h */,
+				BB659AAC16E8499300E3F53B /* PictureHeader.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BB659AB616E87AC000E3F53B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				BB659AB716E87AC000E3F53B /* icons */,
+				BB659ABA16E87AC000E3F53B /* library */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		BB659AB716E87AC000E3F53B /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				BB659AB816E87AC000E3F53B /* grid.png */,
+				BB659AB916E87AC000E3F53B /* picker.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		BB659ABA16E87AC000E3F53B /* library */ = {
+			isa = PBXGroup;
+			children = (
+				BB659ABB16E87AC000E3F53B /* bear.jpg */,
+				BB659ABC16E87AC000E3F53B /* bigBen.jpg */,
+				BB659ABD16E87AC000E3F53B /* clarinet.jpg */,
+				BB659ABE16E87AC000E3F53B /* crocodile.jpg */,
+				BB659ABF16E87AC000E3F53B /* drums.jpg */,
+				BB659AC016E87AC000E3F53B /* elephant.jpg */,
+				BB659AC116E87AC000E3F53B /* empireState.jpg */,
+				BB659AC216E87AC000E3F53B /* goldenGate.jpg */,
+				BB659AC316E87AC000E3F53B /* lion.jpg */,
+				BB659AC416E87AC000E3F53B /* piano.jpg */,
+				BB659AC516E87AC000E3F53B /* tiger.jpg */,
+				BB659AC616E87AC000E3F53B /* trumpet.jpg */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		BB71000316E83BA900BECB92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB71000216E83BA900BECB92 /* PhotoPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB71000416E83BA900BECB92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB71000516E83BA900BECB92 /* UIKit.framework */,
+				BB71000716E83BA900BECB92 /* Foundation.framework */,
+				BB71000916E83BA900BECB92 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB71000B16E83BA900BECB92 /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BB71001D16E83BA900BECB92 /* MainStoryboard.storyboard */,
+				BB659AAA16E8495600E3F53B /* Controllers */,
+				BB659AA916E8494400E3F53B /* Models */,
+				BB71000C16E83BA900BECB92 /* Supporting Files */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		BB71000C16E83BA900BECB92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB659AB116E856EB00E3F53B /* photos.plist */,
+				BB659AB616E87AC000E3F53B /* img */,
+				BB71001416E83BA900BECB92 /* AppDelegate.h */,
+				BB71001516E83BA900BECB92 /* AppDelegate.m */,
+				BB71000D16E83BA900BECB92 /* PhotoPicker-Info.plist */,
+				BB71000E16E83BA900BECB92 /* InfoPlist.strings */,
+				BB71001116E83BA900BECB92 /* main.m */,
+				BB71001316E83BA900BECB92 /* PhotoPicker-Prefix.pch */,
+				BB71001716E83BA900BECB92 /* Default.png */,
+				BB71001916E83BA900BECB92 /* Default@2x.png */,
+				BB71001B16E83BA900BECB92 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB71FFF916E83BA900BECB92 = {
+			isa = PBXGroup;
+			children = (
+				BB71000B16E83BA900BECB92 /* PhotoPicker */,
+				BB71000416E83BA900BECB92 /* Frameworks */,
+				BB71000316E83BA900BECB92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB71000116E83BA900BECB92 /* PhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB71003016E83BA900BECB92 /* Build configuration list for PBXNativeTarget "PhotoPicker" */;
+			buildPhases = (
+				BB71FFFE16E83BA900BECB92 /* Sources */,
+				BB71FFFF16E83BA900BECB92 /* Frameworks */,
+				BB71000016E83BA900BECB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoPicker;
+			productName = PhotoPicker;
+			productReference = BB71000216E83BA900BECB92 /* PhotoPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB71FFFA16E83BA900BECB92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jackson L. Pratt";
+			};
+			buildConfigurationList = BB71FFFD16E83BA900BECB92 /* Build configuration list for PBXProject "PhotoPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB71FFF916E83BA900BECB92;
+			productRefGroup = BB71000316E83BA900BECB92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB71000116E83BA900BECB92 /* PhotoPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB71000016E83BA900BECB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB71001016E83BA900BECB92 /* InfoPlist.strings in Resources */,
+				BB71001816E83BA900BECB92 /* Default.png in Resources */,
+				BB71001A16E83BA900BECB92 /* Default@2x.png in Resources */,
+				BB71001C16E83BA900BECB92 /* Default-568h@2x.png in Resources */,
+				BB71001F16E83BA900BECB92 /* MainStoryboard.storyboard in Resources */,
+				BB659AB216E856EB00E3F53B /* photos.plist in Resources */,
+				BB659AC716E87AC000E3F53B /* grid.png in Resources */,
+				BB659AC816E87AC000E3F53B /* picker.png in Resources */,
+				BB659AC916E87AC000E3F53B /* bear.jpg in Resources */,
+				BB659ACA16E87AC000E3F53B /* bigBen.jpg in Resources */,
+				BB659ACB16E87AC000E3F53B /* clarinet.jpg in Resources */,
+				BB659ACC16E87AC000E3F53B /* crocodile.jpg in Resources */,
+				BB659ACD16E87AC000E3F53B /* drums.jpg in Resources */,
+				BB659ACE16E87AC000E3F53B /* elephant.jpg in Resources */,
+				BB659ACF16E87AC000E3F53B /* empireState.jpg in Resources */,
+				BB659AD016E87AC000E3F53B /* goldenGate.jpg in Resources */,
+				BB659AD116E87AC000E3F53B /* lion.jpg in Resources */,
+				BB659AD216E87AC000E3F53B /* piano.jpg in Resources */,
+				BB659AD316E87AC000E3F53B /* tiger.jpg in Resources */,
+				BB659AD416E87AC000E3F53B /* trumpet.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB71FFFE16E83BA900BECB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB71001216E83BA900BECB92 /* main.m in Sources */,
+				BB71001616E83BA900BECB92 /* AppDelegate.m in Sources */,
+				BB71002216E83BA900BECB92 /* GridViewController.m in Sources */,
+				BB71002916E83BA900BECB92 /* SecondViewController.m in Sources */,
+				BB71006416E8425C00BECB92 /* PictureCell.m in Sources */,
+				BB659AAD16E8499300E3F53B /* PictureHeader.m in Sources */,
+				BB659AB016E8539600E3F53B /* PhotoLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB71000E16E83BA900BECB92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB71000F16E83BA900BECB92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB71001D16E83BA900BECB92 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB71001E16E83BA900BECB92 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB71002E16E83BA900BECB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB71002F16E83BA900BECB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB71003116E83BA900BECB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoPicker/PhotoPicker-Prefix.pch";
+				INFOPLIST_FILE = "PhotoPicker/PhotoPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB71003216E83BA900BECB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PhotoPicker/PhotoPicker-Prefix.pch";
+				INFOPLIST_FILE = "PhotoPicker/PhotoPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB71003016E83BA900BECB92 /* Build configuration list for PBXNativeTarget "PhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB71003116E83BA900BECB92 /* Debug */,
+				BB71003216E83BA900BECB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB71FFFD16E83BA900BECB92 /* Build configuration list for PBXProject "PhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB71002E16E83BA900BECB92 /* Debug */,
+				BB71002F16E83BA900BECB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB71FFFA16E83BA900BECB92 /* Project object */;
+}
